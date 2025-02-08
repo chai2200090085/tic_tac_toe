@@ -212,6 +212,7 @@ if( (one.innerText=="X" && two.innerText=="X" && three.innerText=="X")    ||
     (three.innerText=="X" && five.innerText=="X" && seven.innerText=="X"))
 {
     alert("player X wins the game");
+    reset()
 }
 else if(  (one.innerText=="O" && two.innerText=="O" && three.innerText=="O")    ||
 (four.innerText=="O" && five.innerText=="O" && six.innerText=="O")    ||
@@ -223,6 +224,7 @@ else if(  (one.innerText=="O" && two.innerText=="O" && three.innerText=="O")    
 (three.innerText=="O" && five.innerText=="O" && seven.innerText=="O"))
 {
     alert("player O wins the game");
+    reset()
 }
 else if(!onebutdis &&
     !twobutdis &&
@@ -235,9 +237,11 @@ else if(!onebutdis &&
     !ninebutdis )
     {
        alert("its a draw!!");
+       reset()
     }
 }
-document.querySelector(".rebut").addEventListener("click",()=>{
+function reset()
+{
     count=-1;
      onebutdis=true;
      twobutdis=true;
@@ -257,6 +261,8 @@ document.querySelector(".rebut").addEventListener("click",()=>{
     seven.innerText="";
     eight.innerText="";
     nine.innerText="";
-
+}
+document.querySelector(".rebut").addEventListener("click",()=>{
+    reset();
     //console.log("clicked");
 });
