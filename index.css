@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+.main
+{
+    background-color: burlywood;
+    text-align: center;
+    justify-items: center;
+
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;           /* Allow buttons to wrap onto new lines */
+    justify-content: space-between; /* Evenly spaces buttons in each row */
+    width: 240px;              /* Set the box width (adjust as needed) */
+    gap: 10px;                 /* Adds space between buttons */
+    padding: 10px;             /* Padding around the box */
+    border: 2px solid #ccc;   /* Optional: adds a border to the box */
+    border-radius: 8px;  
+    margin-left: 500px; 
+    background-color:black; /* Optional: rounded corners for the box */
+}
+
+.btn {
+    width: 70px;              /* Width of each button */
+    height: 70px;             /* Height of each button */
+    background-color: white; /* Button color */
+    color: black;             /* Text color */
+    border: none;             /* Remove button border */     /* Rounded corners for the buttons */          /* Button text size */        /* Cursor pointer on hover */
+    text-align: center; 
+    font-size: 50px;      /* Center the text inside the button */
+}
+.rebut
+{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+}
+.rebut:hover{
+    background-color:aliceblue;
+    color: black;
+    border: none;
+}
+.plabut{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* Optional: Button hover effect */
