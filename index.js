@@ -30,11 +30,13 @@ one.addEventListener("click",(e)=>{
     {
         onebutdis=false;
         one.innerText="X";
+        one.style.color="blue";
     }
     else 
     {
         onebutdis=false;
         one.innerText="O";
+        one.style.color="red";
     }
     }
     setTimeout(checkwinner, 0); 
@@ -47,11 +49,13 @@ two.addEventListener("click",(e)=>{
         {
             twobutdis=false;
             two.innerText="X";
+            two.style.color="blue";
         }
         else 
         {
             twobutdis=false;
             two.innerText="O";
+            two.style.color="red";
         }
         setTimeout(checkwinner, 0)
 
@@ -67,11 +71,13 @@ three.addEventListener("click",(e)=>{
         {
             threebutdis=false;
             three.innerText="X";
+            three.style.color="blue";
         }
         else 
         {
             threebutdis=false;
             three.innerText="O";
+            three.style.color="red";
         }
         setTimeout(checkwinner, 0)
 }
@@ -87,11 +93,13 @@ count++;
         {
             fourbutdis=false;
             four.innerText="X";
+            four.style.color="blue";
         }
         else 
         {
            fourbutdis=false; 
             four.innerText="O";
+            four.style.color="red";
         }
         setTimeout(checkwinner, 0)
 }
@@ -105,11 +113,13 @@ five.addEventListener("click",(e)=>{
         {
             fivebutdis=false;
             five.innerText="X";
+            five.style.color="blue";
         }
         else 
         {
             fivebutdis=false;
             five.innerText="O";
+            five.style.color="red";
         }
         setTimeout(checkwinner, 0)
 }
@@ -123,11 +133,13 @@ six.addEventListener("click",(e)=>{
         {
             sixbutdis=false;
             six.innerText="X";
+            six.style.color="blue";
         }
         else 
         {
             sixbutdis=false;
             six.innerText="O";
+            six.style.color="red";
         }
         setTimeout(checkwinner, 0); 
 }})
@@ -140,11 +152,13 @@ seven.addEventListener("click",(e)=>{
         {
             sevenbutdis=false;
             seven.innerText="X";
+            seven.style.color="blue";
         }
         else 
         {
             sevenbutdis=false;
             seven.innerText="O";
+            seven.style.color="red";
         }
         setTimeout(checkwinner, 0); 
 }})
@@ -157,11 +171,13 @@ eight.addEventListener("click",(e)=>{
         {
             eightbutdis=false;
             eight.innerText="X";
+            eight.style.color="blue";
         }
         else 
         {
             eightbutdis=false;
             eight.innerText="O";
+            eight.style.color="red";
         }
         setTimeout(checkwinner, 0)
 }})
@@ -174,11 +190,13 @@ nine.addEventListener("click",(e)=>{
         {
             ninebutdis=false;
             nine.innerText="X";
+            nine.style.color="blue";
         }
         else 
         {
             ninebutdis=false;
             nine.innerText="O";
+            nine.style.color="red";
         }
         setTimeout(checkwinner, 0) 
 }})
